@@ -4,7 +4,7 @@
 - The app fetches weather data from a weather API and displays important weather details in a clean and user-friendly interface.
 
 ## 🌐 Live Demo
-🔗 **Website:** 
+**Click here to view live site** 👉 https://lithikacse24-lab.github.io/Lithika-WeatherApp/
 >Deployment : Hosted using **Github Pages**
 
 ## 📌 Features
