@@ -44,21 +44,10 @@ weather-app/
 4. The API returns real-time weather data.
 5. The weather information is displayed on the screen.
 
-## 🌍 API Data Displayed
-- Temperature (°C)
-- Feels Like Temperature
-- Weather Description
-- Humidity (%)
-- Pressure (hPa)
-- Wind Speed (m/s)
-- Visibility (km)
-- Sunrise Time
-- Sunset Time
-
 ## 📷 Preview
-## 📷 Home Page
+### Home Page
 ![Home Page](./images/home-search.png)
-## 🌦️ Weather Screen
+### Weather Screen
 ![Weather Screen](./images/weather-info1.png)
 ![Weather Screen](./images/weather-info2.png)
 
