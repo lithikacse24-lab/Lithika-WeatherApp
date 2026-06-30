@@ -57,7 +57,7 @@ weather-app/
 
 ## 📷 Preview
 ## 📷 Home Page
-![Home Page](./images/home.png)
+![Home Page](./images/home-search.png)
 ## 🌦️ Weather Screen
 ![Weather Screen](./images/weather-info1.png)
 ![Weather Screen](./images/weather-info2.png)
