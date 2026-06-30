@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url("WeatherApp_BG");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+.container{
+    width: min(90%,450px);
+    background-color: rgba(20, 35, 60, 0.92);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+h1{
+    margin: 20px 0 40px;
+    font-size: clamp(2rem, 6vw, 3rem);
+    color: white;
+}
+input{
+    background-color: #f8fafc;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: calc(100% - 100px);
+    padding-left: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+button{
+    background-color: #ffb703;
+    color: #14213d;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    height: 37px;
+    width: 90px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #fb8500;
+    box-shadow: 0 0 15px rgba(255,183,3,0.5);
+    transform: translateY(-2px);
+}
+button:active{
+    background-color: #e76f00;
+    transform: translateY(0);
+}
+.weather-box{
+    margin-top: 30px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.weather-box h2{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #ffb703;
+}
+.weather-box .row{
+    display: grid;
+    grid-template-columns: 30px 1fr auto;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+.weather-box .label{
+    justify-self: start;
+}
+.weather-box .value{
+    color: #ffb703;
+    font-weight: bold;
+    justify-self: end;
+}
+.weather-box .row span:first-child{
+    opacity: 0.9;
+}
+.weather-box img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.weather-box h3{
+    margin-top: -10px;
+    color: #ffb703;
+    text-transform: capitalize;
+}
+@media (max-width: 380px){
+    input,button{
+        width: 100%;
+        margin: 5px 0;
+    }
+}
