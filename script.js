@@ -1,7 +1,7 @@
 let timer;
 function show()
 {
-    const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";     /*use your api key here*/
+    const API_KEY = "9bfc2d19d166eb64b64dd2869a834828";     /*use your api key here*/
     const io = document.getElementById("input");
     const CITY_NAME = io.value.trim();
     const result = document.getElementById("weatherResult");
